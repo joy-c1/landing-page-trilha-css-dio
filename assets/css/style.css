@@ -45,7 +45,7 @@ h1 {
 
 }
 
-.logo {
+.banner .logo {
     width: 260px;
     height: 260px;
     margin: auto;
@@ -128,5 +128,35 @@ h2 {
     font-weight: 900;
     max-width: 250px;
     text-shadow: 3px 2px 0px #33A8DB;
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+footer {
+    border-top: 1px solid #33A8DB80;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
 
 }
+
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: 700;
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+
